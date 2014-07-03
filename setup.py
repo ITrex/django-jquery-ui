@@ -6,7 +6,7 @@ setup(
     version='2.7.1',
     url='https://github.com/AleXeY989/django-lightbox.git',
     description='Django package for jquery-lightbox: A lightweight customizable lightbox plugin for jQuery',
-    author='Jack Moore',
+    author='Lokesh Dhakar',
     maintainer='AleXeY989',
     maintainer_email='alex1chupahin@ya.ru',
     license='MIT License',
