@@ -23,5 +23,5 @@ setup(
         'Topic :: Utilities',
     ],
     packages=['django_jquery_ui'],
-    package_data={'django_jquery_ui': ['static/js/django_jquery_ui/*.js']}
+    package_data={'django_jquery_ui': ['static/js/django_jquery_ui/*.js', 'static/css/django_jquery_ui/*.css', 'static/img/django_jquery_ui/*.png', 'static/img/django_jquery_ui/*.gif']}
 )
