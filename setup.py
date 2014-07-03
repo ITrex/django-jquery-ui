@@ -3,14 +3,14 @@ from setuptools import setup
 
 setup(
     name='django-jquery-ui',
-    version='1.5.10',
-    url='https://github.com/AleXeY989/django-jquery-ui',
-    description='Django package for jquery-colorbox: A lightweight customizable lightbox plugin for jQuery',
-    author='Jack Moore',
+    version='1.11.0',
+    url='http://jqueryui.com/',
+    description='Django package for jquery-ui: jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top',
+    author='Paul Bakaus',
     maintainer='AleXeY989',
     maintainer_email='alex1chupahin@ya.ru',
     license='MIT License',
-    keywords=['django', 'jquery'],
+    keywords=['django', 'jquery', 'jquery-ui'],
     platforms='any',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
@@ -22,6 +22,6 @@ setup(
         'Programming Language :: Python',
         'Topic :: Utilities',
     ],
-    packages=['django-jquery-ui'],
-    package_data={'django_jquery_ui': ['static/js/*.js']}
+    packages=['django_jquery_ui'],
+    package_data={'django_jquery_ui': ['static/js/django_jquery_ui/*.js']}
 )
